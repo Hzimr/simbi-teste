@@ -1,4 +1,4 @@
-import { CardSlide } from './components/slide/cardslide'
+import { CardSlide } from './components/cardslide/cardslide'
 
 export default function Home() {
   return (
