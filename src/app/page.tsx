@@ -1,9 +1,10 @@
-import Image from "next/image";
+import { CardSlide } from './components/slide/slide'
 
 export default function Home() {
   return (
-    <main className="bg-slate-900 flex min-h-screen flex-col items-center justify-between p-24">
-      <h1 className="text-slate-100 text-4xl">Hello Simbi</h1>
+    <main className="flex min-h-screen flex-col items-center gap-8 bg-neutral-50 p-8">
+      <h1 className="text-4xl text-black">Black</h1>
+      <CardSlide />
     </main>
-  );
+  )
 }
