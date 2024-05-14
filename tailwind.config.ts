@@ -16,6 +16,7 @@ const config: Config = {
       colors: {
         rouanet: '#FFF2DB',
         textrouanet: '#C69C77',
+        link: '#308FA4',
       },
     },
   },
