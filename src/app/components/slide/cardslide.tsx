@@ -1,3 +1,4 @@
+
 export function CardSlide() {
   return (
     <div className="border-radius max-w-96 border-[1px] border-solid border-gray-300 p-5">
