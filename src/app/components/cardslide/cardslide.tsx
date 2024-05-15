@@ -6,7 +6,7 @@ export function CardSlide() {
     <article>
       <div className="max-w-96 rounded-md border-[1px] border-solid border-gray-200 p-5 shadow-lg">
         <header className="flex flex-col gap-2 ">
-          <span className="bg-rouanet text-textrouanet flex w-3/12 items-center justify-center p-[1px] text-sm font-semibold">
+          <span className="flex w-3/12 items-center justify-center bg-rouanet p-[1px] text-sm font-semibold text-textrouanet">
             ROUANET
           </span>
           <h2>
