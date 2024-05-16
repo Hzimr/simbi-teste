@@ -1,9 +1,14 @@
-import Image from "next/image";
+import { Slide } from './components/slide/slide'
 
 export default function Home() {
   return (
-    <main className="bg-slate-900 flex min-h-screen flex-col items-center justify-between p-24">
-      <h1 className="text-slate-100 text-4xl">Hello Simbi</h1>
+    <main className="flex min-h-screen flex-col items-start gap-8 bg-neutral-50 p-8">
+      <h1 className="text-xl font-semibold text-link">
+        Ver outros Projetos do Proponente
+      </h1>
+      <div className="h-[70vh] w-[90vw] ">
+        <Slide />
+      </div>
     </main>
-  );
+  )
 }
