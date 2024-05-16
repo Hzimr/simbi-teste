@@ -102,14 +102,14 @@ export function Slide() {
                     </p>
                     <section className="mt-3 flex flex-col items-start gap-3">
                       <span className="flex gap-2 ">
-                        <p className="w-2/5">Aprovado</p>
-                        <p>
+                        <p className="w-20">Aprovado</p>
+                        <p className="w-[60px]">
                           <strong>{formatPrice(value.valor_aprovado)}</strong>
                         </p>
                       </span>
                       <span className="flex gap-2">
-                        <p className="w-2/5">Captado</p>
-                        <p>
+                        <p className="w-20">Captado</p>
+                        <p className="w-[60px]">
                           <strong>{formatPrice(value.valor_captado)}</strong>
                         </p>
                       </span>
